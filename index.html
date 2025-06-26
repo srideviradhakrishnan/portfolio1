@@ -23,6 +23,9 @@
     <link rel="stylesheet" href="css/style.css">
   </head>
   <body data-spy="scroll" data-target=".site-navbar-target" data-offset="300">
+    <audio id="bgAudio" autoplay loop hidden>
+    <source src="images/audio.mp3" type="audio/mpeg" />
+  </audio>
 	  
 	  
     <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar ftco-navbar-light site-navbar-target" id="ftco-navbar">
@@ -36,8 +39,8 @@
 	        <ul class="navbar-nav nav ml-auto">
 	          <li class="nav-item"><a href="#home-section" class="nav-link"><span>Home</span></a></li>
 	          <li class="nav-item"><a href="#about-section" class="nav-link"><span>About</span></a></li>
-	          <li class="nav-item"><a href="#resume-section" class="nav-link"><span>Career Path</span></a></li>
-	          <li class="nav-item"><a href="#services-section" class="nav-link"><span>Solution Offered</span></a></li>
+	          <li class="nav-item"><a href="#career-section" class="nav-link"><span>Career Path</span></a></li>
+	          <li class="nav-item"><a href="#solutions-section" class="nav-link"><span>Solutions Offered</span></a></li>
 	          <li class="nav-item"><a href="#skills-section" class="nav-link"><span>Skills</span></a></li>
 	          <li class="nav-item"><a href="#projects-section" class="nav-link"><span>Projects</span></a></li>
 	          <li class="nav-item"><a href="#blog-section" class="nav-link"><span>My Blog</span></a></li>
@@ -60,7 +63,7 @@
 		          		<span class="subheading">Hello!</span>
 			            <h1 class="mb-4 mt-3">I'm <span>Sridevi Radhakrishnan</span></h1>
 			            <h2 class="mb-4">A Freelance AWS Cloud & DevOps Engineer</h2>
-			            <p><a href="#contact-section" class="btn btn-primary py-3 px-4">Hire me</a> <a href="#projects-section" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
+			            <p><a href="#contact-section" class="btn btn-primary py-3 px-4">Hire me</a> <a href="#-section" class="btn btn-white btn-outline-white py-3 px-4">My works</a></p>
 		            </div>
 		          </div>
 	        	</div>
@@ -127,7 +130,7 @@
     	</div>
     </section>
 
-    <section class="ftco-section ftco-no-pb" id="resume-section">
+    <section class="ftco-section ftco-no-pb" id="career-section">
     	<div class="container">
     		<div class="row justify-content-center pb-5">
           		<div class="col-md-10 heading-section text-center ftco-animate">
@@ -184,7 +187,7 @@
     	</div>
     </section>
 
-    <section class="ftco-section" id="services-section">
+    <section class="ftco-section" id="solutions-section">
     	<div class="container">
     		<div class="row justify-content-center py-5 mt-5">
           <div class="col-md-12 heading-section text-center ftco-animate">
@@ -421,44 +424,49 @@
             <p>Great things are done by a series of small things brought together.</p>
           </div>
         </div>
-    		<div class="row">
-    			<div class="col-md-4">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-4.jpg);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="https://github.com/srideviradhakrishnan/cloth-donation">Cloth-Donation Network</a></h3>
-	    					<span>Full-Stack Development</span>
-	    				</div>
-    				</div>
-  				</div>
+
+    	<div class="row">
+
+    			  <div class="col-md-4">
+    				    <div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/terra.jpg);">
+    					        <div class="overlay"></div>
+	    				      <div class="text text-center p-4">
+	    					          <h3><a href="#"> Infrastructure as code with Terraform</a></h3>
+	    					          <span>Terraform Deployment</span>
+	    				      </div>
+    				    </div>
+  				  </div>
+
   				<div class="col-md-8">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-5.jpg);">
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/aws.jpg);">
     					<div class="overlay"></div>
 	    				<div class="text text-center p-4">
-	    					<h3><a href="https://srideviradhakrishnan.github.io/senior_citizen_Testimony/">Senior Citizen Testimony</a></h3>
-	    					<span>Web Development</span>
+	    					<h3><a href="https://srideviradhakrishnan.github.io/AWS-PROJECT-Blog-Website/">Aws Cloud Infrastructure Deployment</a></h3>
+	    					<span> AWS Project</span>
 	    				</div>
     				</div>
   				</div>
 
     			<div class="col-md-8">
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-1.jpg);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Expense-Tracker</a></h3>
-	    					<span>Frontend Development</span>
-	    				</div>
+    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/kube.jpg);">
+    					      <div class="overlay"></div>
+	    				  <div class="text text-center p-4">
+	    					      <h3><a href="#"> Container Orchestration with Kubernetes</a></h3>
+	    					      <span>Kubernetes Deployment</span>
+	    				  </div>
     				</div>
-
-    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-6.jpg);">
-    					<div class="overlay"></div>
-	    				<div class="text text-center p-4">
-	    					<h3><a href="#">Portfolio</a></h3>
-	    					<span>Web Development</span>
-	    				</div>
-    				</div>
+          </div>
+          <div class="col-md-4"> 
+    			<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/port.jpg);">
+    					  <div class="overlay"></div>
+	    				    <div class="text text-center p-4">
+	    					      <h3><a href="#">Portfolio</a></h3>
+	    					      <span>Web Development</span>
+	    				    </div>
+          </div>
     			</div>
-    			<div class="col-md-4">
+
+    			<div class="col-md-8">
     				<div class="row">
     					<div class="col-md-12">
 		    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-2.jpg);">
@@ -469,15 +477,7 @@
 			    				</div>
 		    				</div>
 	    				</div>
-	    				<div class="col-md-12">
-		    				<div class="project img ftco-animate d-flex justify-content-center align-items-center" style="background-image: url(images/project-3.jpg);">
-		    					<div class="overlay"></div>
-			    				<div class="text text-center p-4">
-			    					<h3><a href="#">Student Management</a></h3>
-			    					<span>Web Design</span>
-			    				</div>
-		    				</div>
-	    				</div>
+	    				
     				</div>
     			</div>
     		</div>
@@ -595,7 +595,7 @@
 					<div class="col-md-7 ftco-animate text-center">
 						<h2>I'm <span style="color:darkgreen;font-weight:bold">Available</span> for freelancing</h2>
 						<p>The biggest Adventure you can take is to live the life of your dreams.</p>
-						<p class="mb-0"><a href="#contact-section" class="btn btn-primary py-3 px-5">Hire me</a></p>
+						<p><a href="#contact-section" class="btn btn-primary py-3 px-4">Hire me</a> </p>
 					</div>
 				</div>
 			</div>
@@ -698,24 +698,24 @@
             <div class="ftco-footer-widget mb-4 ml-md-4">
               <h2 class="ftco-heading-2">Links</h2>
               <ul class="list-unstyled">
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Services</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Projects</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
+                <li><a href="#home-section"><span class="icon-long-arrow-right mr-2"></span>Home</a></li>
+                <li><a href="#about-section"><span class="icon-long-arrow-right mr-2"></span>About</a></li>
+                <li><a href="#solutions-section"><span class="icon-long-arrow-right mr-2"></span>Solutions Offered</a></li>
+                <li><a href="#projects-section"><span class="icon-long-arrow-right mr-2"></span>Projects</a></li>
+                <li><a href="#contact-section"><span class="icon-long-arrow-right mr-2"></span>Contact</a></li>
               </ul>
             </div>
           </div>
           <div class="col-md">
              <div class="ftco-footer-widget mb-4">
-              <h2 class="ftco-heading-2">Services</h2>
+              <h2 class="ftco-heading-2">Solutions Offered</h2>
               <ul class="list-unstyled">
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Frontend Development</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Backend Development</a></li>
-				<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Full-Stack Development</a></li>
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Business Strategy</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Cloud Infrastructure Design & Deployment</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>CI/CD Pipeline Implementation</a></li>
+				<li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Containerization & Cloud Hosting</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>Load Balancing & Auto Scaling Solutions</a></li>
                 
-                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>System Architect</a></li>
+                <li><a href="#"><span class="icon-long-arrow-right mr-2"></span>cloud & devOps Architect</a></li>
               </ul>
             </div>
           </div>
@@ -763,6 +763,12 @@
   <script src="js/scrollax.min.js"></script>
   
   <script src="js/main.js"></script>
+   <script>
+    document.body.addEventListener('click', () => {
+      const audio = document.getElementById('bgAudio');
+      if (audio.paused) audio.play();
+    });
+  </script>
     
   </body>
 </html>
